@@ -39,10 +39,10 @@ public class CollectionDemo {
             //删除操作
             //collection.remove(s);引发错误：并发修改异常
             //iterator.remove();应使用迭代器的方法
-
-//      * 4.判断
-            System.out.println(collection.contains("西瓜"));//true
-            System.out.println(collection.isEmpty());//false
         }
+
+        //      * 4.判断
+        System.out.println(collection.contains("西瓜"));//true
+        System.out.println(collection.isEmpty());//false
     }
 }
